@@ -1,15 +1,17 @@
 [project]
 name = "fastapi-tut"
 version = "0.1.0"
-description = "Add your description here"
+description = "project for practicing fastAPI"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "aiosqlite>=0.22.1",
+    "alembic>=1.18.3",
     "fastapi-users[sqlalchemy]>=15.0.3",
     "fastapi[standard]>=0.128.0",
     "imagekitio>=5.1.2",
     "psycopg2>=2.9.11",
+    "psycopg2-binary>=2.9.11",
     "python-dotenv>=1.2.1",
     "sqlalchemy>=2.0.46",
     "uvicorn>=0.40.0",
